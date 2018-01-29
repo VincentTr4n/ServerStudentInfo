@@ -11,6 +11,13 @@ namespace ServerInforSV
 {
 	class server
 	{
+		public static bool Remove<T>(List<T> list, Func<T, bool> selector)
+		{
+			var item = list.SingleOrDefault(selector);
+			if (item == null) return false;
+			list.Remove(item);
+			return true;
+		}
 		static void Main(string[] args)
 		{
 			byte[] data = new byte[1<<10];
@@ -92,20 +99,14 @@ namespace ServerInforSV
 					else if (temp[0] == "xoa")
 					{
 						string s = "Xoa thanh cong";
-						bool check = false;
-						int index = 0;
-						foreach (var item in mlist)
-						{
-							if(item.ID == temp[1])
-							{
-								check = true;
-								break; 
-							}
-							index++;
-						}
-						if (!check) s = "Khong tim thay";
-						else mlist.RemoveAt(index);
+						if (!Remove<SV>(mlist,sv=>sv.ID==temp[1])) s = "Khong tim thay";
+
 						var rep = Encoding.ASCII.GetBytes(s);
+						client.Send(rep, rep.Length, SocketFlags.None);
+					}
+					else
+					{
+						var rep = Encoding.ASCII.GetBytes("Sai cu phap");
 						client.Send(rep, rep.Length, SocketFlags.None);
 					}
 				}
