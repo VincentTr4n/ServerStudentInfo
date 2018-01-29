@@ -1,0 +1,8 @@
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\bin\Debug\ServerInforSV.exe.config
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\bin\Debug\ServerInforSV.exe
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\bin\Debug\ServerInforSV.pdb
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\obj\Debug\ServerInforSV.exe
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\obj\Debug\ServerInforSV.pdb
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\bin\Debug\Newtonsoft.Json.dll
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\bin\Debug\Newtonsoft.Json.xml
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\ServerInforSV\obj\Debug\ServerInforSV.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\Client\bin\Debug\Client.exe.config
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\Client\bin\Debug\Client.exe
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\Client\bin\Debug\Client.pdb
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\Client\obj\Debug\Client.exe
+D:\MyWorkSpace\Code_LTMangCsharp\ServerInforSV\Client\obj\Debug\Client.pdb
